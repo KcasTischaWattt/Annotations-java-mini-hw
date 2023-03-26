@@ -24,7 +24,7 @@ public class CalculatorTests {
         }
     }
 
-    // Допустим, здесь не будет аннотации - следоваательно, этот метод не отработает
+    // Допустим, здесь не будет аннотации - следовательно, этот метод не отработает
     public void testMod() {
         Calculator calculator = new Calculator();
         int res = calculator.mod(5, 2);
